@@ -13,8 +13,8 @@ def fetch_go_info(go_id):
 
     data = response.json().get("results", [{}])[0]
 
-    # Short description
-    short_desc = data.get("prefLabel") or data.get("label") or "N/A"
+    # Short description is stored under "name"
+    short_desc = data.get("name", "N/A")
 
     # Long description
     definition = data.get("definition")
@@ -25,6 +25,7 @@ def fetch_go_info(go_id):
 
     return short_desc, long_desc
 
+
 def save_go_info(go_list, filename="go_info.txt"):
     """
     Saves multiple GO terms into a text file.
@@ -34,7 +35,7 @@ def save_go_info(go_list, filename="go_info.txt"):
             result = fetch_go_info(go_id)
             if result:
                 short_desc, long_desc = result
-                f.write(f"GO ID: {go_id}\n")
+                f.write(f"ID: {go_id}\n")
                 f.write(f"Short Description: {short_desc}\n")
                 f.write(f"Long Description: {long_desc}\n")
                 f.write("-" * 50 + "\n")
