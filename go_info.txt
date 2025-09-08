@@ -1,0 +1,372 @@
+GO ID: GO:0022613
+Short Description: N/A
+Long Description: A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of a complex containing RNA and proteins. Includes the biosynthesis of the constituent RNA and protein molecules, and those macromolecular modifications that are involved in synthesis or assembly of the ribonucleoprotein complex.
+--------------------------------------------------
+GO ID: GO:0042254
+Short Description: N/A
+Long Description: A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of ribosome subunits; includes transport to the sites of protein synthesis.
+--------------------------------------------------
+GO ID: GO:0042273
+Short Description: N/A
+Long Description: A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of a large ribosomal subunit; includes transport to the sites of protein synthesis.
+--------------------------------------------------
+GO ID: GO:0006364
+Short Description: N/A
+Long Description: Any process involved in the conversion of a primary ribosomal RNA (rRNA) transcript into one or more mature rRNA molecules.
+--------------------------------------------------
+GO ID: GO:0016072
+Short Description: N/A
+Long Description: The chemical reactions and pathways involving rRNA, ribosomal RNA, a structural constituent of ribosomes.
+--------------------------------------------------
+GO ID: GO:0000470
+Short Description: N/A
+Long Description: Any process involved in the maturation of a precursor Large SubUnit (LSU) ribosomal RNA (rRNA) molecule into a mature LSU-rRNA molecule.
+--------------------------------------------------
+GO ID: GO:0034470
+Short Description: N/A
+Long Description: OBSOLETE. Any process that results in the conversion of one or more primary non-coding RNA (ncRNA) transcripts into one or more mature ncRNA molecules.
+--------------------------------------------------
+GO ID: GO:0006457
+Short Description: N/A
+Long Description: The process of assisting in the covalent and noncovalent assembly of single chain polypeptides or multisubunit complexes into the correct tertiary structure.
+--------------------------------------------------
+GO ID: GO:0061077
+Short Description: N/A
+Long Description: OBSOLETE. The process of inhibiting aggregation and assisting in the covalent and noncovalent assembly of single chain polypeptides or multisubunit complexes into the correct tertiary structure that is dependent on interaction with a chaperone.
+--------------------------------------------------
+GO ID: GO:0000463
+Short Description: N/A
+Long Description: Any process involved in the maturation of a precursor Large SubUnit (LSU) ribosomal RNA (rRNA) molecule into a mature LSU-rRNA molecule from the pre-rRNA molecule originally produced as a tricistronic rRNA transcript that contains the Small Subunit (SSU) rRNA, 5.8S rRNA, and Large Subunit (LSU) in that order from 5' to 3' along the primary transcript.
+--------------------------------------------------
+GO ID: GO:0010608
+Short Description: N/A
+Long Description: Any process that modulates the frequency, rate or extent of gene expression after the production of an RNA transcript.
+--------------------------------------------------
+GO ID: GO:0051604
+Short Description: N/A
+Long Description: Any process leading to the attainment of the full functional capacity of a protein.
+--------------------------------------------------
+GO ID: GO:0006417
+Short Description: N/A
+Long Description: Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of proteins by the translation of mRNA or circRNA.
+--------------------------------------------------
+GO ID: GO:0006913
+Short Description: N/A
+Long Description: The directed movement of molecules between the nucleus and the cytoplasm.
+--------------------------------------------------
+GO ID: GO:0051169
+Short Description: N/A
+Long Description: The directed movement of substances into, out of, or within the nucleus.
+--------------------------------------------------
+GO ID: GO:0000723
+Short Description: N/A
+Long Description: Any process that contributes to the maintenance of proper telomeric length and structure by affecting and monitoring the activity of telomeric proteins, the length of telomeric DNA and the replication and repair of the DNA. These processes includes those that shorten, lengthen, replicate and repair the telomeric DNA sequences.
+--------------------------------------------------
+GO ID: GO:0032200
+Short Description: N/A
+Long Description: A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of telomeres, terminal regions of a linear chromosome that include the telomeric DNA repeats and associated proteins.
+--------------------------------------------------
+GO ID: GO:0034655
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of nucleobases, nucleosides, nucleotides and nucleic acids.
+--------------------------------------------------
+GO ID: GO:0071345
+Short Description: N/A
+Long Description: Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cytokine stimulus.
+--------------------------------------------------
+GO ID: GO:0006278
+Short Description: N/A
+Long Description: A DNA biosynthetic process that uses RNA as a template for RNA-dependent DNA polymerases (e.g. reverse transcriptase) that synthesize the new strand.
+--------------------------------------------------
+GO ID: GO:0007004
+Short Description: N/A
+Long Description: The maintenance of proper telomeric length by the addition of telomeric repeats by telomerase.
+--------------------------------------------------
+GO ID: GO:0034248
+Short Description: N/A
+Long Description: Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving amides.
+--------------------------------------------------
+GO ID: GO:0051085
+Short Description: N/A
+Long Description: OBSOLETE. The process of assisting in the correct posttranslational noncovalent assembly of proteins, which is dependent on additional protein cofactors. This process occurs over one or several cycles of nucleotide hydrolysis-dependent binding and release.
+--------------------------------------------------
+GO ID: GO:0046700
+Short Description: N/A
+Long Description: OBSOLETE. The chemical reactions and pathways resulting in the breakdown of heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings).
+--------------------------------------------------
+GO ID: GO:0044270
+Short Description: N/A
+Long Description: OBSOLETE. The chemical reactions and pathways resulting in the breakdown of organic and inorganic nitrogenous compounds.
+--------------------------------------------------
+GO ID: GO:0022618
+Short Description: N/A
+Long Description: The aggregation, arrangement and bonding together of proteins and RNA molecules to form a ribonucleoprotein complex.
+--------------------------------------------------
+GO ID: GO:0000154
+Short Description: N/A
+Long Description: The covalent alteration of one or more nucleotides within an rRNA molecule to produce an rRNA molecule with a sequence that differs from that coded genetically.
+--------------------------------------------------
+GO ID: GO:0019439
+Short Description: N/A
+Long Description: OBSOLETE. The chemical reactions and pathways resulting in the breakdown of aromatic compounds, any substance containing an aromatic carbon ring.
+--------------------------------------------------
+GO ID: GO:1901361
+Short Description: N/A
+Long Description: OBSOLETE. The chemical reactions and pathways resulting in the breakdown of organic cyclic compound.
+--------------------------------------------------
+GO ID: GO:0042026
+Short Description: N/A
+Long Description: The process carried out by a cell that restores the biological activity of an unfolded or misfolded protein, using helper proteins such as chaperones.
+--------------------------------------------------
+GO ID: GO:0071826
+Short Description: N/A
+Long Description: Any process in which macromolecules aggregate, disaggregate, or are modified, resulting in the formation, disassembly, or alteration of a ribonucleoprotein complex.
+--------------------------------------------------
+GO ID: GO:0051084
+Short Description: N/A
+Long Description: The process of assisting in the correct noncovalent folding of newly formed polypeptides or folding intermediates of polypeptides that have exited the ribosome and/or have been stabilized and transferred by other chaperone proteins. This process could involve several cycles of ATP hydrolysis.
+--------------------------------------------------
+GO ID: GO:0010833
+Short Description: N/A
+Long Description: Any process that contributes to the maintenance of proper telomeric length and structure by affecting and monitoring the activity of telomeric proteins and lengthening the telomeric DNA.
+--------------------------------------------------
+GO ID: GO:0006458
+Short Description: N/A
+Long Description: The process of assisting in the folding of a nascent peptide chain into its correct tertiary structure.
+--------------------------------------------------
+GO ID: GO:0006007
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of glucose, the aldohexose gluco-hexose.
+--------------------------------------------------
+GO ID: GO:0046822
+Short Description: N/A
+Long Description: Any process that modulates the frequency, rate or extent of the directed movement of substances between the nucleus and the cytoplasm.
+--------------------------------------------------
+GO ID: GO:0042274
+Short Description: N/A
+Long Description: A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of a small ribosomal subunit; includes transport to the sites of protein synthesis.
+--------------------------------------------------
+GO ID: GO:2000767
+Short Description: N/A
+Long Description: Any process that activates or increases the frequency, rate or extent of cytoplasmic translation.
+--------------------------------------------------
+GO ID: GO:0009141
+Short Description: N/A
+Long Description: The chemical reactions and pathways involving a nucleoside triphosphate, a compound consisting of a nucleobase linked to a deoxyribose or ribose sugar esterified with triphosphate on the sugar.
+--------------------------------------------------
+GO ID: GO:0045727
+Short Description: N/A
+Long Description: Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of proteins by the translation of mRNA or circRNA.
+--------------------------------------------------
+GO ID: GO:1904816
+Short Description: N/A
+Long Description: Any process that activates or increases the frequency, rate or extent of protein localization to chromosome, telomeric region.
+--------------------------------------------------
+GO ID: GO:1990830
+Short Description: N/A
+Long Description: Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a leukemia inhibitory factor stimulus.
+--------------------------------------------------
+GO ID: GO:0009451
+Short Description: N/A
+Long Description: The covalent alteration of one or more nucleotides within an RNA molecule to produce an RNA molecule with a sequence that differs from that coded genetically.
+--------------------------------------------------
+GO ID: GO:1990823
+Short Description: N/A
+Long Description: Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a leukemia inhibitory factor stimulus.
+--------------------------------------------------
+GO ID: GO:0071353
+Short Description: N/A
+Long Description: Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an interleukin-4 stimulus.
+--------------------------------------------------
+GO ID: GO:0019682
+Short Description: N/A
+Long Description: The chemical reactions and pathways involving glyceraldehyde-3-phosphate, an important intermediate in glycolysis.
+--------------------------------------------------
+GO ID: GO:0046184
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the formation of aldehydes, any organic compound with the formula R-CH=O.
+--------------------------------------------------
+GO ID: GO:0070670
+Short Description: N/A
+Long Description: Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an interleukin-4 stimulus.
+--------------------------------------------------
+GO ID: GO:0000054
+Short Description: N/A
+Long Description: The directed movement of a ribosomal subunit from the nucleus into the cytoplasm.
+--------------------------------------------------
+GO ID: GO:0006735
+Short Description: N/A
+Long Description: A metabolic process that generates a pool of NADH by the reduction of NAD+.
+--------------------------------------------------
+GO ID: GO:0033750
+Short Description: N/A
+Long Description: A process in which a ribosome is transported to, and/or maintained in, a specific location.
+--------------------------------------------------
+GO ID: GO:0061621
+Short Description: N/A
+Long Description: The glycolytic process that begins with the conversion of glucose to glucose-6-phosphate by glucokinase activity. Glycolytic processes are the chemical reactions and pathways resulting in the breakdown of a carbohydrate into pyruvate, with the concomitant production of a small amount of ATP.
+--------------------------------------------------
+GO ID: GO:0061718
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of glucose, with the production of pyruvate.
+--------------------------------------------------
+GO ID: GO:0098760
+Short Description: N/A
+Long Description: Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an interleukin-7 stimulus.
+--------------------------------------------------
+GO ID: GO:0098761
+Short Description: N/A
+Long Description: Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an interleukin-7 stimulus.
+--------------------------------------------------
+GO ID: GO:1904814
+Short Description: N/A
+Long Description: Any process that modulates the frequency, rate or extent of protein localization to chromosome, telomeric region.
+--------------------------------------------------
+GO ID: GO:0019320
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of hexose, any monosaccharide with a chain of six carbon atoms in the molecule.
+--------------------------------------------------
+GO ID: GO:0045943
+Short Description: N/A
+Long Description: Any process that activates or increases the frequency, rate or extent of transcription mediated by RNA polymerase I.
+--------------------------------------------------
+GO ID: GO:0019677
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of nicotinamide adenine dinucleotide (NAD+), a coenzyme that interconverts with its reduced form, NADH, in many redox and catabolic reactions.
+--------------------------------------------------
+GO ID: GO:0046365
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of monosaccharides, polyhydric alcohols containing either an aldehyde or a keto group and between three to ten or more carbon atoms.
+--------------------------------------------------
+GO ID: GO:0034250
+Short Description: N/A
+Long Description: Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving amides.
+--------------------------------------------------
+GO ID: GO:0072594
+Short Description: N/A
+Long Description: The directed movement of a protein to a specific location on or in an organelle. Encompasses establishment of localization in the membrane or lumen of a membrane-bounded organelle.
+--------------------------------------------------
+GO ID: GO:0001522
+Short Description: N/A
+Long Description: The intramolecular conversion of uridine to pseudouridine within an RNA molecule.
+--------------------------------------------------
+GO ID: GO:0061620
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of a carbohydrate into pyruvate, occurring through a glucose-6-phosphate intermediate, with the concomitant production of a small amount of ATP.
+--------------------------------------------------
+GO ID: GO:0009205
+Short Description: N/A
+Long Description: The chemical reactions and pathways involving purine ribonucleoside triphosphate, a compound consisting of a purine base linked to a ribose sugar esterified with triphosphate on the sugar.
+--------------------------------------------------
+GO ID: GO:2000573
+Short Description: N/A
+Long Description: Any process that activates or increases the frequency, rate or extent of DNA biosynthetic process.
+--------------------------------------------------
+GO ID: GO:0009166
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of nucleotides, any nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the glycose moiety; may be mono-, di- or triphosphate; this definition includes cyclic-nucleotides (nucleoside cyclic phosphates).
+--------------------------------------------------
+GO ID: GO:0009199
+Short Description: N/A
+Long Description: OBSOLETE. The chemical reactions and pathways involving a ribonucleoside triphosphate, a compound consisting of a nucleobase linked to a ribose sugar esterified with triphosphate on the sugar.
+--------------------------------------------------
+GO ID: GO:0071897
+Short Description: N/A
+Long Description: The biosynthetic process resulting in the formation of DNA.
+--------------------------------------------------
+GO ID: GO:0051168
+Short Description: N/A
+Long Description: The directed movement of substances out of the nucleus.
+--------------------------------------------------
+GO ID: GO:1901292
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of a nucleoside phosphate.
+--------------------------------------------------
+GO ID: GO:0009144
+Short Description: N/A
+Long Description: The chemical reactions and pathways involving purine nucleoside triphosphate, a compound consisting of a purine base linked to a ribose or deoxyribose sugar esterified with triphosphate on the sugar.
+--------------------------------------------------
+GO ID: GO:0042255
+Short Description: N/A
+Long Description: The aggregation, arrangement and bonding together of the mature ribosome and of its subunits.
+--------------------------------------------------
+GO ID: GO:0006403
+Short Description: N/A
+Long Description: A process in which RNA is transported to, or maintained in, a specific location.
+--------------------------------------------------
+GO ID: GO:0006090
+Short Description: N/A
+Long Description: The chemical reactions and pathways involving pyruvate, 2-oxopropanoate.
+--------------------------------------------------
+GO ID: GO:0019674
+Short Description: N/A
+Long Description: The chemical reactions and pathways involving nicotinamide adenine dinucleotide (NAD+), a coenzyme that interconverts with its reduced form, NADH, in many redox and catabolic reactions.
+--------------------------------------------------
+GO ID: GO:0061615
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of a monosaccharide into pyruvate, occurring through a fructose-6-phosphate intermediate, with the concomitant production of ATP and NADH.
+--------------------------------------------------
+GO ID: GO:0006626
+Short Description: N/A
+Long Description: The process of directing proteins towards and into the mitochondrion, usually mediated by mitochondrial proteins that recognize signals contained within the imported protein.
+--------------------------------------------------
+GO ID: GO:0006356
+Short Description: N/A
+Long Description: Any process that modulates the frequency, rate or extent of transcription mediated by RNA polymerase I.
+--------------------------------------------------
+GO ID: GO:0051054
+Short Description: N/A
+Long Description: Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving DNA.
+--------------------------------------------------
+GO ID: GO:0050821
+Short Description: N/A
+Long Description: Any process involved in maintaining the structure and integrity of a protein and preventing it from degradation or aggregation.
+--------------------------------------------------
+GO ID: GO:1904851
+Short Description: N/A
+Long Description: Any process that activates or increases the frequency, rate or extent of establishment of protein localization to telomere.
+--------------------------------------------------
+GO ID: GO:0000027
+Short Description: N/A
+Long Description: The aggregation, arrangement and bonding together of constituent RNAs and proteins to form the large ribosomal subunit.
+--------------------------------------------------
+GO ID: GO:2000765
+Short Description: N/A
+Long Description: Any process that modulates the frequency, rate or extent of cytoplasmic translation.
+--------------------------------------------------
+GO ID: GO:0051276
+Short Description: N/A
+Long Description: A process that is carried out at the cellular level that results in the assembly, arrangement of constituent parts, or disassembly of chromosomes, structures composed of a very long molecule of DNA and associated proteins that carries hereditary information. This term covers covalent modifications at the molecular level as well as spatial relationships among the major components of a chromosome.
+--------------------------------------------------
+GO ID: GO:0033157
+Short Description: N/A
+Long Description: Any process that modulates the frequency, rate or extent of the directed movement of proteins within cells.
+--------------------------------------------------
+GO ID: GO:0006096
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of a carbohydrate into pyruvate, with the concomitant production of a small amount of ATP and the reduction of NAD(P) to NAD(P)H. Glycolysis begins with the metabolism of a carbohydrate to generate products that can enter the pathway and ends with the production of pyruvate. Pyruvate may be converted to acetyl-coenzyme A, ethanol, lactate, or other small molecules.
+--------------------------------------------------
+GO ID: GO:1902369
+Short Description: N/A
+Long Description: Any process that stops, prevents or reduces the frequency, rate or extent of RNA catabolic process.
+--------------------------------------------------
+GO ID: GO:0006006
+Short Description: N/A
+Long Description: The chemical reactions and pathways involving glucose, the aldohexose gluco-hexose. D-glucose is dextrorotatory and is sometimes known as dextrose; it is an important source of energy for living organisms and is found free as well as combined in homo- and hetero-oligosaccharides and polysaccharides.
+--------------------------------------------------
+GO ID: GO:1903311
+Short Description: N/A
+Long Description: Any process that modulates the frequency, rate or extent of mRNA metabolic process.
+--------------------------------------------------
+GO ID: GO:0070203
+Short Description: N/A
+Long Description: Any process that modulates the frequency, rate or extent of the directed movement of a protein to a specific location in the telomeric region of a chromosome.
+--------------------------------------------------
+GO ID: GO:0051973
+Short Description: N/A
+Long Description: OBSOLETE. Any process that activates or increases the frequency, rate or extent of telomerase activity, the catalysis of the reaction: deoxynucleoside triphosphate + DNA(n) = diphosphate + DNA(n+1).
+--------------------------------------------------
+GO ID: GO:0019364
+Short Description: N/A
+Long Description: The chemical reactions and pathways resulting in the breakdown of a pyridine nucleotide, a nucleotide characterized by a pyridine derivative as a nitrogen base.
+--------------------------------------------------
