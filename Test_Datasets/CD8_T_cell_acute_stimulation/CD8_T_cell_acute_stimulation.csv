@@ -1,0 +1,103 @@
+ID,Description
+GO:0022613,ribonucleoprotein complex biogenesis
+GO:0042254,ribosome biogenesis
+GO:0042273,ribosomal large subunit biogenesis
+GO:0006364,rRNA processing
+GO:0016072,rRNA metabolic process
+GO:0000470,maturation of LSU-rRNA
+GO:0034470,ncRNA processing
+GO:0006457,protein folding
+GO:0061077,chaperone-mediated protein folding
+GO:0000463,"maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)"
+GO:0010608,post-transcriptional regulation of gene expression
+GO:0051604,protein maturation
+GO:0006417,regulation of translation
+GO:0006913,nucleocytoplasmic transport
+GO:0051169,nuclear transport
+GO:0000723,telomere maintenance
+GO:0032200,telomere organization
+GO:0034655,nucleobase-containing compound catabolic process
+GO:0071345,cellular response to cytokine stimulus
+GO:0006278,RNA-templated DNA biosynthetic process
+GO:0007004,telomere maintenance via telomerase
+GO:0034248,regulation of amide metabolic process
+GO:0051085,chaperone cofactor-dependent protein refolding
+GO:0046700,heterocycle catabolic process
+GO:0044270,cellular nitrogen compound catabolic process
+GO:0022618,protein-RNA complex assembly
+GO:0000154,rRNA modification
+GO:0019439,aromatic compound catabolic process
+GO:1901361,organic cyclic compound catabolic process
+GO:0042026,protein refolding
+GO:0071826,protein-RNA complex organization
+GO:0051084,'de novo' post-translational protein folding
+GO:0010833,telomere maintenance via telomere lengthening
+GO:0006458,'de novo' protein folding
+GO:0006007,glucose catabolic process
+GO:0046822,regulation of nucleocytoplasmic transport
+GO:0042274,ribosomal small subunit biogenesis
+GO:2000767,positive regulation of cytoplasmic translation
+GO:0009141,nucleoside triphosphate metabolic process
+GO:0045727,positive regulation of translation
+GO:1904816,"positive regulation of protein localization to chromosome, telomeric region"
+GO:1990830,cellular response to leukemia inhibitory factor
+GO:0009451,RNA modification
+GO:1990823,response to leukemia inhibitory factor
+GO:0071353,cellular response to interleukin-4
+GO:0019682,glyceraldehyde-3-phosphate metabolic process
+GO:0046184,aldehyde biosynthetic process
+GO:0070670,response to interleukin-4
+GO:0000054,ribosomal subunit export from nucleus
+GO:0006735,NADH regeneration
+GO:0033750,ribosome localization
+GO:0061621,canonical glycolysis
+GO:0061718,glucose catabolic process to pyruvate
+GO:0098760,response to interleukin-7
+GO:0098761,cellular response to interleukin-7
+GO:1904814,"regulation of protein localization to chromosome, telomeric region"
+GO:0019320,hexose catabolic process
+GO:0045943,positive regulation of transcription by RNA polymerase I
+GO:0019677,NAD catabolic process
+GO:0046365,monosaccharide catabolic process
+GO:0034250,positive regulation of amide metabolic process
+GO:0072594,establishment of protein localization to organelle
+GO:0001522,pseudouridine synthesis
+GO:0061620,glycolytic process through glucose-6-phosphate
+GO:0009205,purine ribonucleoside triphosphate metabolic process
+GO:2000573,positive regulation of DNA biosynthetic process
+GO:0009166,nucleotide catabolic process
+GO:0009199,ribonucleoside triphosphate metabolic process
+GO:0071897,DNA biosynthetic process
+GO:0051168,nuclear export
+GO:1901292,nucleoside phosphate catabolic process
+GO:0009144,purine nucleoside triphosphate metabolic process
+GO:0042255,ribosome assembly
+GO:0006403,RNA localization
+GO:0006090,pyruvate metabolic process
+GO:0019674,NAD metabolic process
+GO:0061615,glycolytic process through fructose-6-phosphate
+GO:0006626,protein targeting to mitochondrion
+GO:0006356,regulation of transcription by RNA polymerase I
+GO:0051054,positive regulation of DNA metabolic process
+GO:0050821,protein stabilization
+GO:1904851,positive regulation of establishment of protein localization to telomere
+GO:0000027,ribosomal large subunit assembly
+GO:2000765,regulation of cytoplasmic translation
+GO:0051276,chromosome organization
+GO:0033157,regulation of intracellular protein transport
+GO:0006096,glycolytic process
+GO:1902369,negative regulation of RNA catabolic process
+GO:0006006,glucose metabolic process
+GO:1903311,regulation of mRNA metabolic process
+GO:0070203,regulation of establishment of protein localization to telomere
+GO:0051973,positive regulation of telomerase activity
+GO:0019364,pyridine nucleotide catabolic process
+GO:0046032,ADP catabolic process
+GO:0009137,purine nucleoside diphosphate catabolic process
+GO:0009181,purine ribonucleoside diphosphate catabolic process
+GO:0006734,NADH metabolic process
+GO:0032386,regulation of intracellular transport
+GO:0006401,RNA catabolic process
+GO:0009117,nucleotide metabolic process
+GO:0070202,regulation of establishment of protein localization to chromosome
+GO:0016052,carbohydrate catabolic process

@@ -1,0 +1,193 @@
+ID,Description
+GO:0051276,chromosome organization
+GO:0007059,chromosome segregation
+GO:0051301,cell division
+GO:0090068,positive regulation of cell cycle process
+GO:0000280,nuclear division
+GO:0045787,positive regulation of cell cycle
+GO:0098813,nuclear chromosome segregation
+GO:0006260,DNA replication
+GO:0000819,sister chromatid segregation
+GO:0048285,organelle fission
+GO:0000070,mitotic sister chromatid segregation
+GO:0140014,mitotic nuclear division
+GO:0006261,DNA-templated DNA replication
+GO:0044772,mitotic cell cycle phase transition
+GO:0044770,cell cycle phase transition
+GO:0051983,regulation of chromosome segregation
+GO:0007346,regulation of mitotic cell cycle
+GO:0006338,chromatin remodeling
+GO:1902850,microtubule cytoskeleton organization involved in mitosis
+GO:0030261,chromosome condensation
+GO:0051984,positive regulation of chromosome segregation
+GO:0051321,meiotic cell cycle
+GO:0051304,chromosome separation
+GO:1903046,meiotic cell cycle process
+GO:1905818,regulation of chromosome separation
+GO:0007052,mitotic spindle organization
+GO:0065004,protein-DNA complex assembly
+GO:1901990,regulation of mitotic cell cycle phase transition
+GO:1901987,regulation of cell cycle phase transition
+GO:0007051,spindle organization
+GO:0010948,negative regulation of cell cycle process
+GO:0044839,cell cycle G2/M phase transition
+GO:0006334,nucleosome assembly
+GO:0006270,DNA replication initiation
+GO:0006310,DNA recombination
+GO:1901988,negative regulation of cell cycle phase transition
+GO:0045786,negative regulation of cell cycle
+GO:0000226,microtubule cytoskeleton organization
+GO:0034728,nucleosome organization
+GO:1905820,positive regulation of chromosome separation
+GO:0007093,mitotic cell cycle checkpoint signaling
+GO:0070828,heterochromatin organization
+GO:0000075,cell cycle checkpoint signaling
+GO:0000086,G2/M transition of mitotic cell cycle
+GO:1901991,negative regulation of mitotic cell cycle phase transition
+GO:0044786,cell cycle DNA replication
+GO:0033044,regulation of chromosome organization
+GO:0140013,meiotic nuclear division
+GO:0033045,regulation of sister chromatid segregation
+GO:0045930,negative regulation of mitotic cell cycle
+GO:0051383,kinetochore organization
+GO:0051225,spindle assembly
+GO:0051231,spindle elongation
+GO:0051783,regulation of nuclear division
+GO:0033047,regulation of mitotic sister chromatid segregation
+GO:0007088,regulation of mitotic nuclear division
+GO:0007091,metaphase/anaphase transition of mitotic cell cycle
+GO:0044784,metaphase/anaphase transition of cell cycle
+GO:0033260,nuclear DNA replication
+GO:0051052,regulation of DNA metabolic process
+GO:0000910,cytokinesis
+GO:0000281,mitotic cytokinesis
+GO:0034508,centromere complex assembly
+GO:0140694,non-membrane-bounded organelle assembly
+GO:0007076,mitotic chromosome condensation
+GO:0090307,mitotic spindle assembly
+GO:0010965,regulation of mitotic sister chromatid separation
+GO:1901989,positive regulation of cell cycle phase transition
+GO:0033046,negative regulation of sister chromatid segregation
+GO:0033048,negative regulation of mitotic sister chromatid segregation
+GO:0045841,negative regulation of mitotic metaphase/anaphase transition
+GO:2000816,negative regulation of mitotic sister chromatid separation
+GO:1902749,regulation of cell cycle G2/M phase transition
+GO:1902100,negative regulation of metaphase/anaphase transition of cell cycle
+GO:1905819,negative regulation of chromosome separation
+GO:0010389,regulation of G2/M transition of mitotic cell cycle
+GO:0030071,regulation of mitotic metaphase/anaphase transition
+GO:0051306,mitotic sister chromatid separation
+GO:1902099,regulation of metaphase/anaphase transition of cell cycle
+GO:0051985,negative regulation of chromosome segregation
+GO:0032467,positive regulation of cytokinesis
+GO:0031577,spindle checkpoint signaling
+GO:0006302,double-strand break repair
+GO:0010639,negative regulation of organelle organization
+GO:0045839,negative regulation of mitotic nuclear division
+GO:0051781,positive regulation of cell division
+GO:0007127,meiosis I
+GO:0061640,cytoskeleton-dependent cytokinesis
+GO:1901992,positive regulation of mitotic cell cycle phase transition
+GO:0051784,negative regulation of nuclear division
+GO:0006275,regulation of DNA replication
+GO:0031297,replication fork processing
+GO:0071174,mitotic spindle checkpoint signaling
+GO:0061982,meiosis I cell cycle process
+GO:2001251,negative regulation of chromosome organization
+GO:1902969,mitotic DNA replication
+GO:0032465,regulation of cytokinesis
+GO:0045931,positive regulation of mitotic cell cycle
+GO:0008608,attachment of spindle microtubules to kinetochore
+GO:0007143,female meiotic nuclear division
+GO:0051129,negative regulation of cellular component organization
+GO:0045005,DNA-templated DNA replication maintenance of fidelity
+GO:0045132,meiotic chromosome segregation
+GO:0000724,double-strand break repair via homologous recombination
+GO:0051382,kinetochore assembly
+GO:0000725,recombinational repair
+GO:0060623,regulation of chromosome condensation
+GO:1901976,regulation of cell cycle checkpoint
+GO:0007094,mitotic spindle assembly checkpoint signaling
+GO:0071173,spindle assembly checkpoint signaling
+GO:1902751,positive regulation of cell cycle G2/M phase transition
+GO:0051302,regulation of cell division
+GO:0006271,DNA strand elongation involved in DNA replication
+GO:0006268,DNA unwinding involved in DNA replication
+GO:0051988,regulation of attachment of spindle microtubules to kinetochore
+GO:0019682,glyceraldehyde-3-phosphate metabolic process
+GO:0046184,aldehyde biosynthetic process
+GO:0010971,positive regulation of G2/M transition of mitotic cell cycle
+GO:0051493,regulation of cytoskeleton organization
+GO:0051310,metaphase chromosome alignment
+GO:0009314,response to radiation
+GO:0070192,chromosome organization involved in meiotic cell cycle
+GO:0051303,establishment of chromosome localization
+GO:0008284,positive regulation of cell population proliferation
+GO:0000727,double-strand break repair via break-induced replication
+GO:0007062,sister chromatid cohesion
+GO:0050000,chromosome localization
+GO:0010972,negative regulation of G2/M transition of mitotic cell cycle
+GO:0032392,DNA geometric change
+GO:0035825,homologous recombination
+GO:1902750,negative regulation of cell cycle G2/M phase transition
+GO:0051987,positive regulation of attachment of spindle microtubules to kinetochore
+GO:0044818,mitotic G2/M transition checkpoint
+GO:0071897,DNA biosynthetic process
+GO:0051336,regulation of hydrolase activity
+GO:0090232,positive regulation of spindle checkpoint
+GO:0032508,DNA duplex unwinding
+GO:0031570,DNA integrity checkpoint signaling
+GO:0000082,G1/S transition of mitotic cell cycle
+GO:0071103,DNA conformation change
+GO:1901978,positive regulation of cell cycle checkpoint
+GO:0090329,regulation of DNA-templated DNA replication
+GO:0000079,regulation of cyclin-dependent protein serine/threonine kinase activity
+GO:0006735,NADH regeneration
+GO:0061621,canonical glycolysis
+GO:0061718,glucose catabolic process to pyruvate
+GO:0051315,attachment of mitotic spindle microtubules to kinetochore
+GO:0044774,mitotic DNA integrity checkpoint signaling
+GO:0022616,DNA strand elongation
+GO:1904029,regulation of cyclin-dependent protein kinase activity
+GO:0000077,DNA damage checkpoint signaling
+GO:0019677,NAD catabolic process
+GO:0010638,positive regulation of organelle organization
+GO:0051338,regulation of transferase activity
+GO:0051054,positive regulation of DNA metabolic process
+GO:0044843,cell cycle G1/S phase transition
+GO:1901970,positive regulation of mitotic sister chromatid separation
+GO:0031507,heterochromatin formation
+GO:0051053,negative regulation of DNA metabolic process
+GO:0061620,glycolytic process through glucose-6-phosphate
+GO:0090266,regulation of mitotic cell cycle spindle assembly checkpoint
+GO:1903504,regulation of mitotic spindle checkpoint
+GO:0045876,positive regulation of sister chromatid cohesion
+GO:0046822,regulation of nucleocytoplasmic transport
+GO:2001252,positive regulation of chromosome organization
+GO:0032970,regulation of actin filament-based process
+GO:0071168,protein localization to chromatin
+GO:0044027,negative regulation of gene expression via CpG island methylation
+GO:0044771,meiotic cell cycle phase transition
+GO:0140719,constitutive heterochromatin formation
+GO:2000767,positive regulation of cytoplasmic translation
+GO:0044773,mitotic DNA damage checkpoint signaling
+GO:2000001,regulation of DNA damage checkpoint
+GO:0097435,supramolecular fiber organization
+GO:0032956,regulation of actin cytoskeleton organization
+GO:0034502,protein localization to chromosome
+GO:0045910,negative regulation of DNA recombination
+GO:0006007,glucose catabolic process
+GO:0090231,regulation of spindle checkpoint
+GO:0000731,DNA synthesis involved in DNA repair
+GO:0090267,positive regulation of mitotic cell cycle spindle assembly checkpoint
+GO:0051345,positive regulation of hydrolase activity
+GO:0061615,glycolytic process through fructose-6-phosphate
+GO:0051099,positive regulation of binding
+GO:1902903,regulation of supramolecular fiber organization
+GO:0090306,meiotic spindle assembly
+GO:0007015,actin filament organization
+GO:0051494,negative regulation of cytoskeleton organization
+GO:0000018,regulation of DNA recombination
+GO:0071459,"protein localization to chromosome, centromeric region"
+GO:0032506,cytokinetic process
+GO:0090235,regulation of metaphase plate congression
