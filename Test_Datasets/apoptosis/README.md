@@ -387,9 +387,3 @@ This folder contains GO terms describing **apoptotic process** and its descendan
 373. GO:0071866 — negative regulation of apoptotic process in bone marrow cell
 374. GO:0033029 — regulation of neutrophil apoptotic process
 375. GO:0033028 — myeloid cell apoptotic process
-
-## Provenance
-- Generated: 2025-09-08 12:38:05Z UTC
-- QuickGO page: https://www.ebi.ac.uk/QuickGO/term/GO:0006915
-- Descendants API: https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0006915/descendants
-- Terms lookup API (batched): https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/{csv}
