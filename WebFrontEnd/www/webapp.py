@@ -6,6 +6,7 @@ from urllib.parse import quote_plus
 from pathlib import Path
 import string
 
+base_folder = Path(__file__).parent.parent / "Jobs"
 
 app = Flask(__name__)
 
@@ -22,6 +23,18 @@ def index():
     ]
 
     return render_template("index.html", data=data)
+
+
+@app.route("/jobs/<jobid>")
+def jobs(jobid):
+    job_folder = Path(base_folder) / jobid
+
+    if (job_folder / "job_complete.flag").exists():
+        return ("Job complete")
+    
+    else:
+        return ("Job running")
+
 
 
 @app.route("/runanalysis", methods=["POST"])
@@ -51,8 +64,6 @@ def runanalysis():
 
 
 def generate_random_folder():
-
-    base_folder = Path(__file__).parent.parent / "Jobs"
 
     attempts = 0
     while True:
