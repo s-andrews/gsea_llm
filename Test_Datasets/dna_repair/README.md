@@ -3,7 +3,7 @@ What this folder contains biologically:
 - Major canonical DNA repair pathways and double‑strand break repair sub‑routes.
 
 Representative GO terms included:
-1. DNA repair
+1. GO:0006281 — DNA repair
 2. GO:0006298 — mismatch repair
 3. GO:0006289 — nucleotide‑excision repair
 4. GO:0006284 — base‑excision repair
