@@ -5,6 +5,9 @@ import random
 from urllib.parse import quote_plus
 from pathlib import Path
 import string
+import os
+import subprocess
+import sys
 
 base_folder = Path(__file__).parent.parent / "Jobs"
 
@@ -97,6 +100,17 @@ def runanalysis():
 
     with open(id / "background_genes.txt","wt", encoding="utf8") as out:
         out.write(form["background"])
+
+
+    # Start a detached process to run the analysis
+    with open(id/"analysis_log.txt", "wt", encoding="utf8") as out:
+        subprocess.Popen(
+            [sys.executable, id.parent.parent.parent / "AnalysisScripts/run_analysis.py", id.name],
+            stdout=out,                # redirect stdout to file
+            stderr=out,                # redirect stderr to same file
+            stdin=subprocess.DEVNULL,  # detach from parent stdin
+            preexec_fn=os.setsid       # start new session (detached)
+        )
 
 
     return id.name
