@@ -26,7 +26,7 @@ git clone https://github.com/s-andrews/gsea_llm.git
 
 cd gsea_llm/WebFrontEnd
 
-python -m venv venv
+python3 -m venv venv
 
 source venv/bin/activate
 
@@ -43,5 +43,6 @@ flask --app webapp.py run
 This will start the web server on localhost on port 5000.  You can see the other options for changing ports or activating development modes [here](https://flask.palletsprojects.com/en/stable/cli/).  For production use you should use a production flask server such as [waitress](https://flask.palletsprojects.com/en/stable/deploying/waitress/)
 
 If your Ollama instance isn't running on the default port on localhost then you should set the ```OLLAMA_HOST``` environment variable to give the base URL for the API.
+
 
 
