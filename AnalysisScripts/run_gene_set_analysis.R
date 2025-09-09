@@ -52,10 +52,14 @@ else {
 
 enrichgo_results@result |>
     as_tibble() |>
+    filter(p.adjust < 0.05) |>
+    filter(FoldEnrichment > 1) |>
+    arrange(p.adjust) -> enrichgo_results
+
+enrichgo_results |>
     write_tsv("cluster_profiler_result.tsv")
 
-enrichgo_results@result |>
-    as_tibble() |>
+enrichgo_results |>
     select(ID) |>
     write_tsv("go_ids.txt")
 
