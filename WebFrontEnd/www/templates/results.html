@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}GSEA Analysis with LLM Summary{% endblock %}
+{% block content %}
+<div class="container-fluid py-4">
+
+  <!-- Header -->
+  <div class="text-center mb-4">
+    <img src="{{ url_for('static', filename='images/bioinformatics_logo.svg') }}" alt="Logo" width="120" class="mb-3">
+    <h1 class="fw-bold">Gene Set Analysis with LLMs</h1>
+    <h2 class="fw-bold">Results for Job {{jobid}}</h2>
+  </div>
+
+  <div class="text-center mb-4">
+    <h2 class="fw-bold">LLM Summary</h2>
+
+    <p>
+    {{ ai_summary }}
+    </p>
+  </div>
+
+
+
+  <div class="text-center mb-4">
+    <h2 class="fw-bold">Gene Set Analysis Results</h2>
+  </div>
+
+  <div class="row">
+  <table id="gsea">
+    <thead>
+      {% for header in headers %}
+        <th>{{ header }}</th>
+      {% endfor %}
+    </thead>
+    <tbody>
+      {% for hit in hits %}
+      <tr>
+        {% for value in hit%}
+          <td>{{ value }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    
+    </tbody>
+  </table>
+
+  </div>
+
+</div>
+{% endblock %}
+
+{% block js %}
+<script>
+  $(document).ready( function () {
+      $('#gsea').DataTable();
+  } );
+</script>
+{% endblock %}
+
+

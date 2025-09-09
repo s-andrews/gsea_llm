@@ -30,9 +30,35 @@ def jobs(jobid):
     job_folder = Path(base_folder) / jobid
 
     if (job_folder / "job_complete.flag").exists():
-        return ("Job complete")
+        # We need to read in the various parts of the results.
+
+        # AI summary
+        ai_summary = "This is where the ai summary will go"
+
+        # GSEA results
+        gsea_headers = []
+        gsea_results = []
+
+        with open(job_folder/"cluster_profiler_result.tsv") as infh:
+            gsea_headers = infh.readline().strip().split("\t")
+
+            for line in infh:
+                sections = line.strip().split("\t")
+
+                for i in range(0,len(sections)):
+                    try:
+                        number = float(sections[i])
+                        sections[i] = str(round(number,2))
+                    except ValueError:
+                        pass
+
+                gsea_results.append(sections)
+
+
+        return render_template("results.html", headers=gsea_headers, ai_summary=ai_summary, hits=gsea_results)
     
     else:
+        # TODO: Put up a proper holding page
         return ("Job running")
 
 

@@ -10,9 +10,8 @@
 
     <!-- Data Tables -->
     <link href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/2.3.3/css/dataTables.dataTables.min.css" rel="stylesheet">
 
-    <!-- JSTree -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
 
     <!-- CSS -->
     <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
@@ -36,7 +35,10 @@
 
     <!-- JQuery which we're still using even if bootstrap doesn't need it any more -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
- 
+
+    <!-- Data Tables -->
+    <script src="https://cdn.datatables.net/2.3.3/js/dataTables.min.js"></script>
+
     <!-- Custom JS -->
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     {% block js %}{% endblock %}
