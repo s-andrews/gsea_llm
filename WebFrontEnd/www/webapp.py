@@ -39,23 +39,36 @@ def jobs(jobid):
         gsea_headers = []
         gsea_results = []
 
+        headers_to_remove = ["GeneRatio","BackgroundRatio","RichFactor","zScore","pvalue","qvalue"]
+
+        headers_to_keep = []
+
+
         with open(job_folder/"cluster_profiler_result.tsv") as infh:
             gsea_headers = infh.readline().strip().split("\t")
+
+            for header in gsea_headers:
+                if not header in headers_to_remove:
+                    headers_to_keep.append(header)
 
             for line in infh:
                 sections = line.strip().split("\t")
 
+                sections_to_keep = []
+
                 for i in range(0,len(sections)):
+                    if gsea_headers[i] in headers_to_remove:
+                        continue
                     try:
                         number = float(sections[i])
-                        sections[i] = str(round(number,2))
+                        sections_to_keep.append(str(round(number,2)))
                     except ValueError:
-                        pass
+                        sections_to_keep.append(sections[i])
 
-                gsea_results.append(sections)
+                gsea_results.append(sections_to_keep)
 
 
-        return render_template("results.html", headers=gsea_headers, ai_summary=ai_summary, hits=gsea_results)
+        return render_template("results.html", headers=headers_to_keep, ai_summary=ai_summary, hits=gsea_results)
     
     else:
         # TODO: Put up a proper holding page
