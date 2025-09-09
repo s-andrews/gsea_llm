@@ -20,10 +20,10 @@ def run_step(command, log_file, error_file, cwd=None):
     with open(log_file, "a") as out, open(error_file, "a") as err:
         result = subprocess.run(
             command,
-            stdout=out,
+            stdout=out,     # error check
             stderr=err,
-            cwd=cwd,
-            text=True
+            cwd=cwd,     # run command in the specifiv folder if provided
+            text=True      # ensures error messages are in text form
         )
     if result.returncode != 0:
         raise RuntimeError(f"Step failed: {' '.join(command)}")
@@ -56,6 +56,7 @@ def main():
 
         go_script_path = project_root / "AnalysisScripts" / "go_to_description.py"
         print("Extrcating GO text...")
+        
         run_step(
             [sys.executable, str(go_script_path), job_id],
             log_file,
@@ -63,7 +64,7 @@ def main():
             cwd = project_root
         )
 
-        run_llm_path = project_root / "AnalysisScripts" / "summarise_terms.py"
+        run_llm_path = project_root / "AnalysisScripts" / "ollamaGo.py"
 
         #run llm to summarise terms
         print("Running LLM....")
