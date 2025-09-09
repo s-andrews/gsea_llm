@@ -1,5 +1,5 @@
-install.packages("tidyverse")
-install.packages("BiocManager")
+install.packages("tidyverse", repos="https://cloud.r-project.org")
+install.packages("BiocManager", repos="https://cloud.r-project.org")
 BiocManager::install("clusterProfiler")
 BiocManager::install("org.Hs.eg.db")
 BiocManager::install("org.Mm.eg.db")
