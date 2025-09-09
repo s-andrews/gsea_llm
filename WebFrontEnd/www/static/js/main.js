@@ -19,7 +19,7 @@ function run_analysis(){
 
     $.ajax(
         {
-            url: "/runanalysis",
+            url: "./runanalysis",
             method: "POST",
             data: user_data,
             success: function(folder) {
