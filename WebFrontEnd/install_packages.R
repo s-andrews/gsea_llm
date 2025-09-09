@@ -1,0 +1,5 @@
+install.packages("tidyverse")
+install.packages("BiocManager")
+BiocManager::install("clusterProfiler")
+BiocManager::install("org.Hs.eg.db")
+BiocManager::install("org.Mm.eg.db")

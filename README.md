@@ -32,6 +32,8 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
+Rscript install_packages.R
+
 cd www
 
 flask --app webapp.py run
