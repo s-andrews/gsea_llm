@@ -5,7 +5,10 @@ library(tidyverse)
 
 commandArgs(trailingOnly = TRUE)[1] -> job_id
 
-setwd(paste0("../WebFrontEnd/",job_id))
+# setwd(paste0("../WebFrontEnd/",job_id))
+job_folder <- commandArgs(trailingOnly = TRUE)[1]
+setwd(job_folder)
+
 
 read_tsv("species.txt", col_names="species") |> pull(species) -> species
 
