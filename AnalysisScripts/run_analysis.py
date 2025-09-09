@@ -58,18 +58,18 @@ def main():
         print("Extrcating GO text...")
 
         run_step(
-            [sys.executable, str(go_script_path), str(job_folder)],
+            [sys.executable, str(go_script_path), job_folder.name],
             log_file,
             error_file,
             cwd = project_root
         )
 
-        run_llm_path = project_root / "AnalysisScripts" / "ollamaGo.py"
+        run_llm_path = project_root / "AnalysisScripts" / "ollamaGO.py"
 
         #run llm to summarise terms
         print("Running LLM....")
         run_step(
-            [sys.executable, str(run_llm_path), str(job_folder)],
+            [sys.executable, str(run_llm_path), job_folder.name],
             log_file,
             error_file,
             cwd = project_root

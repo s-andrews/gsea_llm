@@ -23,7 +23,7 @@ function run_analysis(){
             method: "POST",
             data: user_data,
             success: function(folder) {
-                window.location.replace(`./jobs/${folder}`)
+                window.location.href = `./jobs/${folder}`
             },
             error: function(message) {
                 alert("Failed to run analysis: "+message)

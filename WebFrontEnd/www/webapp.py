@@ -32,11 +32,16 @@ def index():
 def jobs(jobid):
     job_folder = Path(base_folder) / jobid
 
-    if (job_folder / "job_complete.flag").exists():
+    if (job_folder / "analysis.complete").exists():
         # We need to read in the various parts of the results.
 
         # AI summary
-        ai_summary = "This is where the ai summary will go"
+        ai_summary = ""
+
+        with open(job_folder/"LLMresponse.txt") as infh:
+            for line in infh:
+                ai_summary += line
+                ai_summary += "\n"
 
         # GSEA results
         gsea_headers = []
