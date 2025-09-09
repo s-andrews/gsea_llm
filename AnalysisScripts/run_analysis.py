@@ -56,9 +56,9 @@ def main():
 
         go_script_path = project_root / "AnalysisScripts" / "go_to_description.py"
         print("Extrcating GO text...")
-        
+
         run_step(
-            [sys.executable, str(go_script_path), job_id],
+            [sys.executable, str(go_script_path), str(job_folder)],
             log_file,
             error_file,
             cwd = project_root
@@ -69,7 +69,7 @@ def main():
         #run llm to summarise terms
         print("Running LLM....")
         run_step(
-            [sys.executable, str(run_llm_path), job_id],
+            [sys.executable, str(run_llm_path), str(job_folder)],
             log_file,
             error_file,
             cwd = project_root
