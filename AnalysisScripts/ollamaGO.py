@@ -6,7 +6,12 @@ import ollama
 import truststore
 import ssl
 
-jobID = sys.argv[1]
+
+job_id = sys.argv[1]
+job_folder = job_id
+'''
+job_folder = Path(__file__).parent / "WebFrontEnd/Jobs/"+job_id
+'''
 
 ''' 
 # For MAC/Windows
@@ -20,7 +25,7 @@ client = ollama.Client(
     host="https://capstone.babraham.ac.uk/ollama/CYLVVWWXZRHDQLRVJEKB/",
     verify=False)
 
-p_path = Path(jobID + "/prompts.txt")
+p_path = Path(job_folder + "/prompts.txt")
 
 try:
     my_path = p_path.resolve(strict=True)
@@ -31,7 +36,7 @@ else:
     with open(p_path, "r") as text_file1:
         prompt = text_file1.read()
 
-with open(jobID + "/go_info.txt", "r") as text_file2:
+with open(job_folder + "/go_info.txt", "r") as text_file2:
     GO_descriptions = text_file2.read()
 
 response = client.chat(
@@ -44,7 +49,7 @@ response = client.chat(
     ]
 )
 
-with open(jobID +'/LLMresponse.txt', 'w') as output:
+with open(job_folder +'/LLMresponse.txt', 'w') as output:
     output.write(response.message.content)
 
 print(response.message.content)
