@@ -46,10 +46,11 @@ if __name__ == "__main__":
         print("Usage: python go_to_description.py <job_folder>")
         sys.exit(1)
 
-    job_folder = Path(sys.argv[1])
+    job_folder = Path(__file__).parent.parent/("WebFrontEnd/Jobs/"+sys.argv[1])
     go_ids_file = job_folder / "go_ids.txt"
     output_file = job_folder / "go_info.txt"
 
     with open(go_ids_file, "r") as f:
+        f.readline()
         go_list = [line.strip() for line in f if line.strip()]
     save_go_info(go_list, output_file)
