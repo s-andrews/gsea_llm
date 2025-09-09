@@ -20,18 +20,18 @@ read_tsv("background_genes.txt",col_names="background") |>
 
 org_db <- NULL
 
-if (str_detect("Human",species)) {
-    org_db = org.Hs.eg.db
+if (str_detect(species, regex("Human|Homo sapiens", ignore_case = TRUE))) {
+    org_db <- org.Hs.eg.db
+} else if (str_detect(species, regex("Mouse|Mus musculus", ignore_case = TRUE))) {
+    org_db <- org.Mm.eg.db
+} else {
+    stop(paste("Unsupported species:", species))
 }
 
-if (str_detect("Mouse",species)) {
-    org_db = org.Mm.eg.db
-}
-
-if (len(background) == 0) {
+if (length(background) == 0) {
     enrichGO(
         query,
-        OrgDb = org.Mm.eg.db,
+        OrgDb = org_db,
         keyType = "SYMBOL",
         ont = "BP",
         minGSSize = 10,
@@ -39,19 +39,20 @@ if (len(background) == 0) {
         readable = TRUE
 ) -> enrichgo_results
 
-}
-else {
-    enrichGO(
+} else {
+    enrichgo_results <- enrichGO(
         query,
-        OrgDb = org.Mm.eg.db,
+        OrgDb = org_db,
         keyType = "SYMBOL",
         universe = background,
         ont = "BP",
         minGSSize = 10,
         maxGSSize = 200,
         readable = TRUE
-    ) -> enrichgo_results
+    )
 }
+
+print(nrow(enrichgo_results))
 
 enrichgo_results@result |>
     as_tibble() |>
