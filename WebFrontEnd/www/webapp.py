@@ -47,7 +47,7 @@ def jobs(jobid):
         gsea_headers = []
         gsea_results = []
 
-        headers_to_remove = ["GeneRatio","BackgroundRatio","RichFactor","zScore","pvalue","qvalue"]
+        headers_to_remove = ["GeneRatio","BgRatio","RichFactor","zScore","pvalue","qvalue","geneID"]
 
         headers_to_keep = []
 
