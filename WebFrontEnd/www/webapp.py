@@ -8,6 +8,7 @@ import string
 import os
 import subprocess
 import sys
+import markdown
 
 base_folder = Path(__file__).parent.parent / "Jobs"
 
@@ -41,7 +42,12 @@ def jobs(jobid):
         with open(job_folder/"LLMresponse.txt") as infh:
             for line in infh:
                 ai_summary += line
-                ai_summary += "\n"
+
+        ai_summary = markdown.markdown(ai_summary,extensions=['markdown.extensions.tables'])
+
+        ai_summary = ai_summary.replace("<table", '<table class="table"')
+
+
 
         # GSEA results
         gsea_headers = []
