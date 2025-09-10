@@ -6,7 +6,6 @@ $( document ).ready(function() {
 
 function run_analysis(){
 
-    alert("Running analysis")
     // We need to collect the information from the form and then
     // submit an ajax request 
 
