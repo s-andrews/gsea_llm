@@ -79,8 +79,21 @@ def jobs(jobid):
         return render_template("results.html", headers=headers_to_keep, ai_summary=ai_summary, hits=gsea_results)
     
     else:
-        # TODO: Put up a proper holding page
-        return ("Job running")
+        # Read in the text from the log files and send them to the holding page.
+
+        log_text = ""
+        error_text = ""
+
+        with open(job_folder/"analysis_log.txt","rt", encoding="utf8") as infh:
+            for line in infh:
+                log_text += line
+
+
+        with open(job_folder/"analysis_errors.txt","rt", encoding="utf8") as infh:
+            for line in infh:
+                error_text += line
+
+        return render_template("holding.html", log_text=log_text, error_text=error_text)
 
 
 

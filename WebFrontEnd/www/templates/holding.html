@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}GSEA Analysis with LLM Summary{% endblock %}
+{% block content %}
+<div class="container-fluid py-4">
+
+  <!-- Header -->
+  <div class="text-center mb-4">
+    <img src="{{ url_for('static', filename='images/gollm.png') }}" alt="Logo" width="120" class="mb-3">
+    <h1 class="fw-bold">Gene Set Analysis with LLMs</h1>
+    <h2 class="fw-bold">Analysis in progress for Job {{jobid}}</h2>
+  </div>
+
+  <div class="text-center mb-4">
+    <h2 class="fw-bold">Log File</h2>
+
+    <pre>
+      {{ log_text }}
+    </pre>
+
+  </div>
+
+  <div class="text-center mb-4">
+    <h2 class="fw-bold">Error File</h2>
+
+    <pre>
+      {{ error_text }}
+    </pre>
+
+  </div>
+
+
+</div>
+{% endblock %}
+
+{% block js %}
+<script>
+  $(document).ready( function () {
+      $('#gsea').DataTable();
+  } );
+</script>
+{% endblock %}
+
+
