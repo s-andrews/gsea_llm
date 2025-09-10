@@ -26,8 +26,9 @@ else:
 with open(job_folder / "go_info.txt", "r") as text_file2:
     GO_descriptions = text_file2.read()
 
-response = client.chat(
+stream = client.chat(
     model="gpt-oss:20b",
+    stream=True,
     messages=[
         {
             "role":"user",
@@ -35,8 +36,11 @@ response = client.chat(
         }
     ]
 )
+output = ""
 
-with open(job_folder /'LLMresponse.txt', 'w') as output:
-    output.write(response.message.content)
+for chunk in stream:
+    output = output + chunk['message']['content']
+    print(chunk['message']['content'], end='', flush=True)
 
-print(response.message.content)
+with open(job_folder /'LLMresponse.txt', 'w') as towrite:
+    towrite.write(output)
