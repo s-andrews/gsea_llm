@@ -38,13 +38,13 @@ def main():
     log_file = job_folder / "analysis_log.txt"
     error_file = job_folder / "analysis_errors.txt"
 
-    print(f"Starting analysis for job: {job_id}")
+    print(f"Starting analysis for job: {job_id}", flush=True)
 
     r_script_path = project_root / "AnalysisScripts" / "run_gene_set_analysis.R"
     # r_cwd = project_root / "WebFrontEnd"
     try:
         # run gsea in r
-        print("Running GSEA..")
+        print("Running GSEA..", flush=True)
         run_step(
             ["Rscript", str(r_script_path), str(job_folder)],
             log_file,
@@ -55,7 +55,7 @@ def main():
         # extract GO text from GO ids
 
         go_script_path = project_root / "AnalysisScripts" / "go_to_description.py"
-        print("Extrcating GO text...")
+        print("Extrcating GO text...", flush=True)
 
         run_step(
             [sys.executable, str(go_script_path), job_folder.name],
@@ -67,7 +67,7 @@ def main():
         run_llm_path = project_root / "AnalysisScripts" / "ollamaGO.py"
 
         #run llm to summarise terms
-        print("Running LLM....")
+        print("Running LLM....", flush=True)
         run_step(
             [sys.executable, str(run_llm_path), job_folder.name],
             log_file,
@@ -77,7 +77,7 @@ def main():
 
         complete_flag = job_folder / "analysis.complete"
         complete_flag.touch()
-        print("Pipeline complete!")
+        print("Pipeline complete!", flush=True)
 
     except Exception as e:
         with open(error_file, "a") as err:

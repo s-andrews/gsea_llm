@@ -1,7 +1,7 @@
-library(clusterProfiler)
-library(org.Hs.eg.db)
-library(org.Mm.eg.db)
-library(tidyverse)
+suppressMessages(library(clusterProfiler))
+suppressMessages(library(org.Hs.eg.db))
+suppressMessages(library(org.Mm.eg.db))
+suppressMessages(library(tidyverse))
 
 commandArgs(trailingOnly = TRUE)[1] -> job_id
 
@@ -10,12 +10,12 @@ job_folder <- commandArgs(trailingOnly = TRUE)[1]
 setwd(job_folder)
 
 
-read_tsv("species.txt", col_names="species") |> pull(species) -> species
+suppressMessages(read_tsv("species.txt", col_names="species")) |> pull(species) -> species
 
-read_tsv("query_genes.txt",col_names="query") |>
+suppressMessages(read_tsv("query_genes.txt",col_names="query")) |>
     pull(query) -> query
 
-read_tsv("background_genes.txt",col_names="background") |>
+suppressMessages(read_tsv("background_genes.txt",col_names="background")) |>
     pull(background) -> background
 
 org_db <- NULL
@@ -51,8 +51,6 @@ if (length(background) == 0) {
         readable = TRUE
     )
 }
-
-print(nrow(enrichgo_results))
 
 enrichgo_results@result |>
     as_tibble() |>

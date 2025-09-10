@@ -38,7 +38,7 @@ def save_go_info(go_list, output_file):
             else:
                 f.write(f"GO ID: {go_id} - Not Found\n")
                 f.write("-" * 50 + "\n")
-    print(f"All information saved to {output_file}")
+    # print(f"All information saved to {output_file}")
 
 
 if __name__ == "__main__":
