@@ -89,7 +89,7 @@ def jobs(jobid):
                 for line in infh:
                     log_text += line
 
-
+        if (job_folder/"analysis_errors.txt").exists():
             with open(job_folder/"analysis_errors.txt","rt", encoding="utf8") as infh:
                 for line in infh:
                     error_text += line
