@@ -47,7 +47,7 @@ def jobs(jobid):
         gsea_headers = []
         gsea_results = []
 
-        headers_to_remove = ["GeneRatio","BgRatio","RichFactor","zScore","pvalue","qvalue","geneID"]
+        headers_to_remove = ["RichFactor","zScore","pvalue","qvalue","geneID","Count"]
 
         headers_to_keep = []
 
@@ -76,7 +76,7 @@ def jobs(jobid):
                 gsea_results.append(sections_to_keep)
 
 
-        return render_template("results.html", headers=headers_to_keep, ai_summary=ai_summary, hits=gsea_results)
+        return render_template("results.html", job_id=job_folder.name,headers=headers_to_keep, ai_summary=ai_summary, hits=gsea_results)
     
     else:
         # Read in the text from the log files and send them to the holding page.
@@ -94,7 +94,7 @@ def jobs(jobid):
                 for line in infh:
                     error_text += line
 
-        return render_template("holding.html", log_text=log_text, error_text=error_text)
+        return render_template("holding.html", job_id=job_folder.name,log_text=log_text, error_text=error_text)
 
 
 
