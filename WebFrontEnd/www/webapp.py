@@ -9,6 +9,7 @@ import os
 import subprocess
 import sys
 import markdown
+import re
 
 base_folder = Path(__file__).parent.parent / "Jobs"
 
@@ -47,6 +48,28 @@ def jobs(jobid):
 
         ai_summary = ai_summary.replace("<table", '<table class="table"')
 
+        # We want to annotate the GO terms with a popover to say what they are.  For this
+        # We'll need the descriptions from the GO IDs
+        go_descriptions = {}
+
+        with open(job_folder / "go_info.txt", "rt", encoding="utf8") as infh:
+            for line in infh:
+                if line.startswith("ID"):
+                    go_id = line[4:].strip()
+                    go_description = infh.readline()[19:].strip()
+
+                    go_descriptions[go_id] = go_description
+
+
+        # Now we want to find all of the go ids in the ai text and replace them with a div with
+        # a tooltip 
+
+        def repl(match):
+            key = match.group(1)
+            value = go_descriptions.get(key, "Unknown term")  # fallback if not found
+            return f'<span class="go_id" title="{value}">{key}</span>'
+
+        ai_summary = re.sub(r'(GO:\d+)', repl, ai_summary)
 
 
         # GSEA results
