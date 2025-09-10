@@ -12,10 +12,11 @@
 
   <div class="text-center mb-4">
     <h2 class="fw-bold">LLM Summary</h2>
-
-    <pre>{{ ai_summary }}</pre>
-    
+    <div class="border rounded p-3 bg-light text-start" style="white-space: pre-wrap;">
+      {{ ai_summary|safe }}
+    </div>
   </div>
+   
 
 
 
