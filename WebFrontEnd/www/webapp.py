@@ -84,14 +84,15 @@ def jobs(jobid):
         log_text = ""
         error_text = ""
 
-        with open(job_folder/"analysis_log.txt","rt", encoding="utf8") as infh:
-            for line in infh:
-                log_text += line
+        if (job_folder/"analysis_log.txt").exists():
+            with open(job_folder/"analysis_log.txt","rt", encoding="utf8") as infh:
+                for line in infh:
+                    log_text += line
 
 
-        with open(job_folder/"analysis_errors.txt","rt", encoding="utf8") as infh:
-            for line in infh:
-                error_text += line
+            with open(job_folder/"analysis_errors.txt","rt", encoding="utf8") as infh:
+                for line in infh:
+                    error_text += line
 
         return render_template("holding.html", log_text=log_text, error_text=error_text)
 
